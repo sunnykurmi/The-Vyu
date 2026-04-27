@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
-import { images } from "../../utils/Data/HeroData"
+import { data } from './../../utils/Data/HeroData';
 
 
 export default function InfiniteWork() {
@@ -46,8 +46,8 @@ export default function InfiniteWork() {
                 height = 0.6 * window.innerHeight;
             }
             setElementDimensions({ width, height });
-            preloadImages(images);
-            setShuffledImages(shuffle(images));
+            preloadImages(data[0].image || []);
+            setShuffledImages(shuffle(image));
             scrollX.current = -((0 * width) - window.innerWidth / 2 + width / 1.2);
             scrollY.current = -((0 * height) - window.innerHeight / 2 + height / 1.2);
         }
