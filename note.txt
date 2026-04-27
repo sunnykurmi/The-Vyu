@@ -1,0 +1,91 @@
+logo animation ✔️
+disable diagnoally scroll in 3d scroller ✔️
+nav effect on explore more work ✔️
+add atachment word/pdf 50mb✔️
+words effect in contact page ✔️
+send btn working
+arrow in home page 
+all links working > this page is under development .kindly wait until you see the magic ✔️
+hero idea
+footer idea 
+work page hover routing,name , random place repeat ✔️
+home hover card routing ✔️
+responsive
+epand show reel in center and cursor show reel ✔️
+5 files attachment total size >50✔️
+add attach btn✔️
+
+**cell division effect**
+
+
+
+5 jun 25 work
+rpsg media frame copy ✔️
+scale out ,✔️
+text animation y axis,✔️
+hover on cursor ✔️
+routing on image ✔️
+arrow click url website✔️   
+list animation 5 images then 3 
+view remove on list and same arrow routing ✔️   
+animation on 3d , list
+hover text animation in list , delay✔️
+dimensions same ✔️
+view more remove ✔️ 
+nav logo in other pages ✔️ 
+
+
+
+
+zcommerce: add in para ✔️ 
+
+why choose height kam, width bdana , ✔️ 
+new icons in drive , ✔️ 
+normal scroll in zcommerce project ✔️ 
+90% on clippath section ,  increase height also  ✔️ 
+
+remove curve contact ✔️ 
+hero para split para ✔️ 
+about pages para splits animation ✔️ 
+hero video animation
+
+
+debouncing, vertical scroll disable anand bhaiya
+
+
+7 jun 
+nav hover drop back ✔️ 
+list filter ✔️ 
+category✔️ 
+subcategory✔️ 
+footer
+3d new layout frame
+
+
+footer font size small ✔️ 
+add links ✔️ 
+mumbai city time ✔️ 
+logo in footer ✔️ 
+number in subcategory ✔️ 
+white text fix in list  ✔️
+vertical scroll disable
+responsive home page ✔️
+
+10-6
+
+hero logo /video margin space ✔️
+wer the vyu animation fast✔️
+ 3d curve scroller font size / gap decrese seprate ✔️
+view more service open in mobile✔️
+services text para ✔️
+new work page for mobile devices ✔️
+
+succ submit
+thank you for showing interest in the vyu this could be the first step in making the business big our team we will contact your shortly
+
+
+view more image mobile change
+work page filter ui ✔️  
+grid change btn position fix ✔️
+greyish color in nav links  ✔️
+same rout link on click close the menu ✔️
