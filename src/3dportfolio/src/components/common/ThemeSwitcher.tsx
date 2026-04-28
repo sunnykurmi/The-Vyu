@@ -1,6 +1,4 @@
 // import "react-crud-icons/dist/react-crud-icons.css";
-
-import { useGSAP } from "@gsap/react";
 import { usePortalStore } from "@/3dportfolio/src/stores/portalStore";
 import gsap from "gsap";
 import Image from "next/image";
@@ -15,7 +13,7 @@ const ThemeSwitcher = () => {
 	const [positionClass, setPositionClass] = useState<string>("");
 	const toggleTheme = () => nextColor();
 
-	useGSAP(() => {
+	useEffect(() => {
 		gsap.to(themeSwitcherRef.current, {
 			opacity: isActive ? 0 : 1,
 			duration: 1,

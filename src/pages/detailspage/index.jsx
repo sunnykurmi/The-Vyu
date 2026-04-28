@@ -1,13 +1,12 @@
-import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import SplitText from "gsap/dist/SplitText";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 gsap.registerPlugin(ScrollTrigger, SplitText);
 const index = () => {
-  useGSAP(() => {
+  useEffect(() => {
     const mainProject = document.querySelector("main.single-project");
     if (!mainProject) return;
 

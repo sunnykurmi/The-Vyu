@@ -1,10 +1,9 @@
-import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 
 const MediaVideo = () => {
-  useGSAP(() => {
+  useEffect(() => {
     const tl = gsap.timeline({ repeatDelay: 1 });
 
     const clipIn = "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)";
@@ -95,9 +94,7 @@ const MediaVideo = () => {
         </div>
         <div
           className="loaderImages bg-yellow-600 absolute z-50  w-full md:w-[40%] 
-             h-full md:h-[70%] 
-             bg-yellow-600 
-             absolute z-50 
+             h-full md:h-[70%]  
              inset-0 md:inset-auto md:right-0 md:top-0
              md:-translate-x-0 md:-translate-y-0 
              translate-x-0 translate-y-0"

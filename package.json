@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@gsap/react": "^2.1.2",
     "@next/third-parties": "^15.3.1",
     "@react-three/drei": "9.102.6",
     "@react-three/fiber": "8.15.19",
@@ -23,7 +22,7 @@
     "gsap": "^3.13.0",
     "html-react-parser": "^5.2.2",
     "lenis": "^1.2.3",
-    "leva": "0.9.9",
+    "leva": "^0.10.1",
     "locomotive-scroll": "^4.1.4",
     "mouse-follower": "^1.1.2",
     "next": "^15.2.2",
