@@ -28,7 +28,7 @@ const ScrollCards = forwardRef(function ScrollCards(
     const materials = useMemo(() =>
         data.map((d) => {
             const texture = new THREE.TextureLoader().load(d.image);
-            texture.encoding = THREE.sRGBEncoding;
+            texture.colorSpace = THREE.SRGBColorSpace;
             texture.minFilter = THREE.LinearFilter;
             return new THREE.MeshBasicMaterial({ map: texture });
         }), [data]);

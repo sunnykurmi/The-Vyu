@@ -6,7 +6,7 @@ function Card({ textureUrl, title, position }) {
     
   const material = useMemo(() => {
     const tex = new THREE.TextureLoader().load(textureUrl);
-    tex.encoding = THREE.sRGBEncoding;
+    tex.colorSpace = THREE.SRGBColorSpace;
     tex.minFilter = THREE.LinearFilter;
     return new THREE.MeshBasicMaterial({ map: tex });
   }, [textureUrl]);

@@ -25,7 +25,7 @@ export default function InfiniteTiles({ targetIntensity }) {
   const materials = useMemo(() =>
     images.map((img) => {
       const texture = new THREE.TextureLoader().load(img);
-      texture.encoding = THREE.sRGBEncoding;
+      texture.colorSpace = THREE.SRGBColorSpace;
       texture.minFilter = THREE.LinearFilter;
       return new THREE.MeshBasicMaterial({ map: texture });
     }), []);

@@ -41,7 +41,7 @@ export default function InfiniteTiles({ targetIntensity }) {
       for (let gy = -offset; gy <= offset; gy++) {
         data.forEach((tile) => {
           const texture = new THREE.TextureLoader().load(tile.image);
-          texture.encoding = THREE.sRGBEncoding;
+          texture.colorSpace = THREE.SRGBColorSpace;
           texture.minFilter = THREE.LinearFilter;
 
           const material = new THREE.MeshBasicMaterial({
@@ -88,7 +88,7 @@ const posY = tile.y + gy * VERTICAL_SPACING;
           mesh.add(text);
 
           const arrowTexture = new THREE.TextureLoader().load('/images/arrow_bg_trans.png');
-          arrowTexture.encoding = THREE.sRGBEncoding;
+          arrowTexture.colorSpace = THREE.SRGBColorSpace;
           arrowTexture.minFilter = THREE.LinearFilter;
 
           const arrowMaterial = new THREE.MeshBasicMaterial({
