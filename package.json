@@ -25,7 +25,7 @@
     "leva": "^0.10.1",
     "locomotive-scroll": "^4.1.4",
     "mouse-follower": "^1.1.2",
-    "next": "^15.2.2",
+    "next": "^15.3.2",
     "postcss-import": "^16.1.0",
     "postprocessing": "^6.37.3",
     "react": "^18.3.1",
